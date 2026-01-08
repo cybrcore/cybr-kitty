@@ -19,6 +19,7 @@
 - Make sure [Geist Mono Nerd Font](../INSTALL.md##Prerequisites&Setup) is installed
 - Make sure kitty is installed: `sudo pacman -S kitty`
 - See [Installation Guide](../INSTALL.md) if you haven't set up prerequisites yet
+- [Github](https://github.com/kovidgoyal/kitty) | [Arch wiki](https://wiki.archlinux.org/title/Kitty)
 
 ### 1. Create theme folder and file
 ```sh
@@ -26,11 +27,10 @@ mkdir -p ~/.config/kitty/themes
 $EDITOR ~/.config/kitty/themes/CYBRkitty.conf
 ```
 ### 2. Insert [CYBRkitty](../kitty/CYBRkitty.conf)
-### 3. Insert [kitty.conf](../kitty/kitty.conf)
 ```sh
 $EDITOR ~/.config/kitty/themes/CYBRkitty.conf
 ```
-### 4. Restart kitty and apply theme
+### 3. Restart kitty and apply theme
 ```sh
 pkill kitty && include themes/CYBRkitty.conf
 ```
